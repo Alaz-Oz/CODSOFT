@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #d9d9d9;
+}
+
+.calculator input {
+    width: 180px;
+    height: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.calculator .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.calculator .keypad button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.calculator .keypad button.clear {
+    grid-column: span 2;
+    width: auto;
+    background-color: #f44336;
+    color: #f0f0f0;
+}
+.calculator .keypad button.equals {
+    grid-column: span 2;
+    width: auto;
+    background-color: #4CAF50;
+    color: #f0f0f0;
+}
