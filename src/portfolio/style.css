@@ -85,14 +85,14 @@ nav {
         0 16px 0 0 var(--nav-toggle-color);
 }
 
-nav .logo {
+.logo {
     font-size: 28px;
     font-weight: 700;
     padding: 10px;
     margin-left: 40px;
 }
 
-nav .logo span {
+.logo span {
     color: var(--ascent-color);
 }
 
