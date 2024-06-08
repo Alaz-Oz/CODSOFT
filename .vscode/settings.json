@@ -3,6 +3,9 @@
         "codsoft",
         "devicon",
         "fontawesome",
-        "fortawesome"
+        "fortawesome",
+        "multitext",
+        "navlist",
+        "scrolldownhint"
     ]
 }
