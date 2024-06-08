@@ -1,0 +1,73 @@
+
+#hero{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.5em;
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 8rem;
+}
+.scrolldownhint{
+    position: absolute;
+    bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: var(--text-color-3);
+    transition: opacity 0.5s ease-out, bottom 0.5s ease-out;
+    opacity: 1;
+}
+.hidden{
+    opacity: 0;
+    bottom: 40px;
+}
+.scrolldownhint span{
+    margin: 10px;
+}
+
+#team{
+    margin-top: 100px;
+}
+.members{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 30px;
+    overflow: hidden;
+    flex-wrap: wrap;
+   justify-content: center; 
+}
+.member{
+    display: block;
+    overflow: hidden;
+    width: 150px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.member img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.member h3{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
